@@ -7,6 +7,16 @@
     <groupId>lk.ijse.dep10</groupId>
     <artifactId>team-project</artifactId>
     <version>0.1.0</version>
+    <packaging>jar</packaging>
+
+   <dependencies>
+       <dependency>
+           <groupId>org.openjfx</groupId>
+           <artifactId>javafx-fxml</artifactId>
+           <version>19.0.2.1</version>
+       </dependency>
+
+   </dependencies>
 
     <packaging>jar</packaging>
 
