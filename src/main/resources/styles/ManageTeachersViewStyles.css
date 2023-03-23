@@ -1,0 +1,39 @@
+.text-field, .password-field{
+    -fx-background-color: white;
+    -fx-border-color: lightgray;
+}
+
+.text-field:focused, .password-field:focused{
+    -fx-border-color: #00a6ff;
+}
+
+.invalid {
+    -fx-border-color: red !important;
+}
+
+#btnDelete{
+    -fx-background-color: RED;
+    -fx-text-fill: WHITE;
+}
+#btnDelete:hover {
+    -fx-cursor: hand;
+    -fx-background-color: rgba(255, 0, 0, 0.77);
+}
+#btnNewTeacher{
+    -fx-background-color: GREEN;
+    -fx-text-fill: WHITE;
+}
+#btnNewTeacher:hover{
+    -fx-background-color: rgba(0, 128, 0, 0.73);
+    -fx-text-fill: WHITE;
+}
+
+#btnSave{
+    -fx-background-color: BLUE;
+    -fx-text-fill: WHITE;
+}
+#btnSave:hover{
+    -fx-background-color: rgba(0, 0, 255, 0.76);
+    -fx-text-fill: WHITE;
+}
+

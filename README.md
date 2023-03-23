@@ -1,9 +1,9 @@
-#Team Project 2
+# Team Project 2
 
 
-##version
+## version
 0.1.0
 
 
-###Lisence
+### Lisence
 This project is licensed under this[license](LICENCE.txt).
