@@ -32,7 +32,9 @@ public class DBConnection {
 
             fr.close();
         } catch (Exception e) {
+            e.printStackTrace();
             new Alert(Alert.AlertType.ERROR,"Failed to establish the database").showAndWait();
+            System.exit(1);
             throw new RuntimeException(e);
         }
     }

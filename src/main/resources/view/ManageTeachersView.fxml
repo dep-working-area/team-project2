@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="704.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.teamproject2.controller.ManageTeachersViewController">
+<AnchorPane prefHeight="704.0" prefWidth="814.0" stylesheets="@../styles/ManageTeachersViewStyles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep10.teamproject2.controller.ManageTeachersViewController">
    <children>
       <Button fx:id="btnNewTeacher" layoutX="41.0" layoutY="34.0" mnemonicParsing="false" onAction="#btnNewTeacherOnAction" text="+ New Teacher" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="34.0">
          <font>
